@@ -179,3 +179,13 @@ h3 {
   }
 }
 
+.hero__box-ing {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero__box-ing:hover {
+  transform: scale(1.1);
+}
+ 
