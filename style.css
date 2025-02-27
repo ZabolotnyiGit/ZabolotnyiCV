@@ -106,10 +106,12 @@ h3 {
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
+  max-height: 450px;
 }
 
 .hero__box-img {
   animation: ava-bg 3s infinite alternate;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 978px) {
