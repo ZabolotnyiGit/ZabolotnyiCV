@@ -112,6 +112,7 @@ h3 {
 .hero__box-img {
   animation: ava-bg 3s infinite alternate;
   object-fit: contain;
+  max-height: 500px;
 }
 
 @media screen and (max-width: 978px) {
