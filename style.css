@@ -1,4 +1,3 @@
-
 *,
 ::before,
 ::after {
@@ -107,13 +106,10 @@ h3 {
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
-  max-height: 450px;
 }
 
 .hero__box-img {
   animation: ava-bg 3s infinite alternate;
-  object-fit: contain;
-  max-height: 500px;
 }
 
 @media screen and (max-width: 978px) {
@@ -183,20 +179,13 @@ h3 {
   }
 }
 
+
 .hero__box-ing {
-    max-width: 100%;
-    height: 500px; /* Задаем фиксированную высоту */
-    object-fit: cover; /* Корректное масштабирование */
-    transition: transform 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .hero__box-ing:hover {
-    transform: scale(1.1);
-}
-
-.hero__box {
-    background-image: url('12.png'); /* Заменяем на путь к вашему изображению */
-    background-attachment: fixed; /* Добавляем параллакс-эффект */
-    background-size: cover;
-    background-position: center;
+  transform: scale(1.1);
 }
